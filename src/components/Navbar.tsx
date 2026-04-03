@@ -124,13 +124,11 @@ export default function Navbar() {
             aria-controls="mobile-nav-drawer"
           >
             {menuOpen ? (
-              // X icon
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
                 <line x1="3" y1="3" x2="17" y2="17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                 <line x1="17" y1="3" x2="3" y2="17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
               </svg>
             ) : (
-              // Hamburger — three clean lines
               <svg width="20" height="14" viewBox="0 0 20 14" fill="none" aria-hidden="true">
                 <line x1="0" y1="1" x2="20" y2="1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                 <line x1="0" y1="7" x2="20" y2="7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
